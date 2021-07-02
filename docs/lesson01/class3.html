@@ -33,7 +33,8 @@
         <p>This exercise will start where we left off with the second exercise today. The zip file for that code can be found <a href="class2.zip">here</a>.</p>
         <h2>Instructions</h2>
         <ol>
-            <li><p>Modify <code>app.js</code> to use the following code instead of onclick
+            <li>
+                <p>Modify <code>app.js</code> to use the following code instead of onclick
                 <pre><code class="js">
     document.querySelector('#submitButton').addEventListener("click", function() {
         submitFunction('circumference');
@@ -41,20 +42,39 @@
     document.querySelector('#submitAreaButton').addEventListener("click", function() {
         submitFunction('area');
     }, false);
-                </code></pre>    
-            </p></li>
-            <li><p>Modify the IDs in <code>app.html</code> to follow a pattern. For example, "radius", "button", "output" and "radiusArea", "buttonArea", "outputArea".</p></li>
-            <li><p>Delete the <code>submitAreaFunction()</code> from app.js</p></li>
-            <li><p>Modify <code>submitFunction()</code> with some if else logic to call the proper functions and output to the correct places based on the parameter that was passed in ('circumference' or 'area').</p></li>
-            <li><p>Create a new module called <code>display.js</code>. In it:
+                </code></pre>
+                </p>
+            </li>
+            <li>
+                <p>Modify the IDs in <code>app.html</code> to follow a pattern. For example, "radius", "button", "output" and "radiusArea", "buttonArea", "outputArea".</p>
+            </li>
+            <li>
+                <p>Delete the <code>submitAreaFunction()</code> from app.js</p>
+            </li>
+            <li>
+                <p>Modify <code>submitFunction()</code> with some if else logic to call the proper functions and output to the correct places based on the parameter that was passed in ('circumference' or 'area').</p>
+            </li>
+            <li>
+                <p>Create a new module called <code>display.js</code>. In it:
                 <ul>
-                    <li><p>Create a function called outputToElement(elementID, value, color)</p></li>
-                    <li><p>Use the parameters to output the value to an id, then add a color if it is present.</p></li>
+                    <li>
+                        <p>Create a function called outputToElement(elementID, value, color)</p>
+                    </li>
+                    <li>
+                        <p>Use the parameters to output the value to an id, then add a color if it is present.</p>
+                    </li>
                 </ul>
-            </p></li>
-            <li><p>Import <code>outputToElement</code> into <code>app.js</code></p></li>
-            <li><p>Test your code and make modifications until it is working as intended.</p></li>
-            <li><p>STRETCH: Add another section to your html and another function to compute the volume of a sphere.</p></li>
+                </p>
+            </li>
+            <li>
+                <p>Import <code>outputToElement</code> into <code>app.js</code></p>
+            </li>
+            <li>
+                <p>Test your code and make modifications until it is working as intended.</p>
+            </li>
+            <li>
+                <p>STRETCH: Add another section to your html and another function to compute the volume of a sphere.</p>
+            </li>
         </ol>
         <h2>Conclusion</h2>
         <p>Congratulations! You just incorporated several modules into this application. You will be able to use these modules in other applications if you'd like. The following video shows this whole activity being completed.</p>
