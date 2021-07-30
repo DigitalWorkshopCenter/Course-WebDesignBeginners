@@ -20,15 +20,14 @@
       document.getElementById('g_reading').innerHTML = g.reading;
       document.getElementById('g_classTime').innerHTML = g.classTime;
       document.getElementById('g_assignment').innerHTML = g.assignment;
-      document.getElementById('g_t2_1').innerHTML = g.t2_1;
-      document.getElementById('g_t2_2').innerHTML = g.t2_2;
-      document.getElementById('g_t2_3').innerHTML = g.t2_3;
-      document.getElementById('g_t2_4').innerHTML = g.t2_4;
-      document.getElementById('g_t2_5').innerHTML = g.t2_5;
-      document.getElementById('g_t2_6').innerHTML = g.t2_6;
-      document.getElementById('g_t2_7').innerHTML = g.t2_7;
-      document.getElementById('g_t2_8').innerHTML = g.t2_8;
-      document.getElementById('g_t2_9').innerHTML = g.t2_9;
+
+      for (let i of g.t2) {
+        let li = document.createElement('li');
+        let p = document.createElement('p');
+        p.appendChild(document.createTextNode(i));
+        li.appendChild(p);
+        document.getElementById('lessonTopics').appendChild(li);
+      }
     };
   </script>
 </head>
@@ -39,35 +38,8 @@
     <h1 id="g_u02"></h1>
     <h2>Summary</h2>
     <p>The topics for this lesson are as follows:</p>
-    <ul>
-      <li>
-        <p id="g_t2_1"></p>
-      </li>
-      <li>
-        <p id="g_t2_2"></p>
-      </li>
-      <li>
-        <p id="g_t2_3"></p>
-      </li>
-      <li>
-        <p id="g_t2_4"></p>
-      </li>
-      <li>
-        <p id="g_t2_5"></p>
-      </li>
-      <li>
-        <p id="g_t2_6"></p>
-      </li>
-      <li>
-        <p id="g_t2_7"></p>
-      </li>
-      <li>
-        <p id="g_t2_8"></p>
-      </li>
-      <li>
-        <p id="g_t2_9"></p>
-      </li>
-    </ul>
+    <ul id="lessonTopics"></ul>
+
     <h2>Tasks</h2>
     <ul>
       <li>

@@ -15,13 +15,18 @@
     });
     window.onload = function () {
       // load global variables
-      document.title = g.n02;
+      document.title = g.n04;
       document.getElementById('g_u04').innerHTML = g.u04;
       document.getElementById('g_reading').innerHTML = g.reading;
       document.getElementById('g_classTime').innerHTML = g.classTime;
       document.getElementById('g_assignment').innerHTML = g.assignment;
-      document.getElementById('g_t4_1').innerHTML = g.t4_1;
-      document.getElementById('g_t4_2').innerHTML = g.t4_2;
+      for (let i of g.t4) {
+        let li = document.createElement('li');
+        let p = document.createElement('p');
+        p.appendChild(document.createTextNode(i));
+        li.appendChild(p);
+        document.getElementById('lessonTopics').appendChild(li);
+      }
     };
   </script>
 </head>
@@ -32,14 +37,7 @@
     <h1 id="g_u04"></h1>
     <h2>Summary</h2>
     <p>The topics for this lesson are as follows:</p>
-    <ul>
-      <li>
-        <p id="g_t4_1"></p>
-      </li>
-      <li>
-        <p id="g_t4_2"></p>
-      </li>
-    </ul>
+    <ul id="lessonTopics"></ul>
     <h2>Tasks</h2>
     <ul>
       <li>

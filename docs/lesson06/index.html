@@ -15,13 +15,11 @@
     });
     window.onload = function () {
       // load global variables
-      document.title = g.n03;
-      document.getElementById('g_u03').innerHTML = g.u03;
+      document.title = g.n06;
+      document.getElementById('g_u06').innerHTML = g.u06;
       document.getElementById('g_reading').innerHTML = g.reading;
-      // document.getElementById('g_classTime').innerHTML = g.classTime;
-      document.getElementById('g_assignment').innerHTML = g.assignment;
-
-      for (let i of g.t3) {
+      document.getElementById('g_classTime').innerHTML = g.classTime;
+      for (let i of g.t6) {
         let li = document.createElement('li');
         let p = document.createElement('p');
         p.appendChild(document.createTextNode(i));
@@ -35,7 +33,7 @@
 <body>
   <div id="includedHeader"></div>
   <article>
-    <h1 id="g_u03"></h1>
+    <h1 id="g_u06"></h1>
     <h2>Summary</h2>
     <p>The topics for this lesson are as follows:</p>
     <ul id="lessonTopics"></ul>
@@ -44,11 +42,8 @@
       <li>
         <p><a href="reading.html" id="g_reading"></a></p>
       </li>
-      <!-- <li>
-          <p><a href="class.html" id="g_classTime"> </a></p>
-        </li> -->
       <li>
-        <p><a href="assignment.html" id="g_assignment"> </a></p>
+        <p><a href="class.html" id="g_classTime"> </a></p>
       </li>
     </ul>
   </article>

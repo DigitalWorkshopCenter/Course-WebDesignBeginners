@@ -12,13 +12,15 @@ g.n02 = 'Lesson ' + '02';
 g.n03 = 'Lesson ' + '03';
 g.n04 = 'Lesson ' + '04';
 g.n05 = 'Lesson ' + '05';
+g.n06 = 'Lesson ' + '06';
 
 // module names
-g.u01 = g.n01 + ' - Diving Deeper Into JavaScript';
-g.u02 = g.n02 + ' - JavaScript Frameworks';
-g.u03 = g.n03 + ' - JavaScript Dependencies and Builds';
-g.u04 = g.n04 + ' - Testing and Offline Storage';
-g.u05 = g.n05 + ' - Asynchronous JavaScript';
+g.u01 = g.n01 + ' - Intro to Web Development (VS Code, HTML and CSS)';
+g.u02 = g.n02 + ' - Project I - One Awesome Home Page';
+g.u03 = g.n03 + ' - Advanced Web Development';
+g.u04 = g.n04 + ' - Project II - First Website';
+g.u05 = g.n05 + ' - Search Engine Optimization and Advanced CSS';
+g.u06 = g.n06 + ' - Project III - Awesome Website';
 
 // assignment information
 
@@ -27,34 +29,53 @@ g.classTime = 'In-class Materials';
 g.assignment = 'Programming Assignment';
 
 // course topics
-g.t1_0 = 'JavaScript Review';
-g.t1_1 = 'JavaScript Best Practices - Good Habits to get into';
-g.t1_2 = 'Helpful Programming Tips';
-g.t1_3 = 'JavaScript Modules';
-g.t1_4 = 'JavaScript Callbacks';
-g.t1_5 = 'Evolution of JavaScript';
+g.t1 = [
+  'Learn how to use VS Code (file structure, expansions, hotkeys, etc.)',
+  'Know what HTML and CSS are used for, respectively',
+  'Create individual functional web pages using HTML5 and CSS3',
+  'Create a basic webpage layout',
+  'Apply styles to your page',
+  'Create more web pages',
+  'Create lists',
+  'Structure content - headers, footers, comments, etc.',
+  'Navigate through your site by creating hyper-links',
+];
 
-g.t2_1 = 'JavaScript Frameworks';
-g.t2_2 = 'Angular';
-g.t2_3 = 'React';
-g.t2_4 = 'Vue';
-g.t2_5 = 'Ember';
-g.t2_6 = 'Meteor';
-g.t2_7 = 'Node';
-g.t2_8 = 'Comparing and Deciding';
-g.t2_9 = 'Getting Started with our Framework of Choice';
+g.t2 = [
+  "Learn how to use the browser inspect tools (i.e. Mozilla's Firebug)",
+  'Link CSS file',
+  'Project: Home Page',
+];
 
-g.t3_1 = 'Single Page Applications';
-g.t3_2 = 'Dependencies in JavaScript';
-g.t3_3 = 'npm and npx';
-g.t3_4 = 'Builds';
-g.t3_5 = 'Variable Types, Repetition, Functions';
-g.t3_6 = 'ES6 Concepts';
+g.t3 = [
+  'Design and develop an advanced webpage',
+  'Create intriguing, modern layouts using "div" and "span" tags',
+  'Use advanced CSS techniques and shortcuts (enhance text, format lists, modify background, background image properties, etc)',
+  'Incorporate Metadata and Multimedia',
+  'Work with tables the right way (style them with css)',
+  "Validate your web page's code",
+  'Create a breadcrumb',
+  'Review project architecture',
+];
 
-g.t4_1 = 'JavaScript Testing';
-g.t4_2 = 'Offline Storage';
+g.t4 = [
+  'Advanced CSS: create complex layouts, box layouts with rounded corners ',
+  'Advanced CSS: Print media queries',
+  'Incorporate accessibility features ',
+  'Project: Favorite Places',
+];
 
-g.t5_1 = 'Asynchronous JavaScript';
-g.t5_2 = 'Recap on Starting a New Web App';
-g.t5_3 = 'Deploy App';
-g.t5_4 = 'Professional Portfolios';
+g.t5 = [
+  'Optimize CSS for mobile - media queries',
+  'Create advanced styles and page layouts using CSS positioning',
+  'Create image and email links - format links with css',
+  'Learn the latest CSS3 features including shadows, gradients',
+  'Optimize a website for accessibility',
+  'Optimize a website for search engines - discuss site maps',
+  'Create basic forms (style with css, include advanced elements and form submission)',
+];
+
+g.t6 = [
+  'Website project: Personal Project',
+  'Publish a website - file upload: https://www.000webhost.com/',
+];
