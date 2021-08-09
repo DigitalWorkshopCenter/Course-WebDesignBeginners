@@ -32,13 +32,12 @@ g.assignment = 'Programming Assignment';
 g.t1 = [
   'Learn how to use VS Code (file structure, expansions, hotkeys, etc.)',
   'Know what HTML and CSS are used for, respectively',
+  'Apply styles to your page',
   'Create individual functional web pages using HTML5 and CSS3',
   'Create a basic webpage layout',
-  'Apply styles to your page',
   'Create more web pages',
   'Create lists',
-  'Structure content - headers, footers, comments, etc.',
-  'Navigate through your site by creating hyper-links',
+  'Structure content and use hyper-links',
 ];
 
 g.t2 = [

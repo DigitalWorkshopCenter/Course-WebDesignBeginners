@@ -28,114 +28,31 @@
 <body>
     <div id="includedHeader"></div>
     <article>
-        <h1>Hands-on Exercise 1<br>Creating Modules</h1>
+        <h1>Hands-on Exercise 1<br>Practice with HTML and CSS</h1>
+
         <h2>Overview</h2>
-        <p>The focus of this assignment is to create our first JavaScript Modules. Here are our goals for today:</p>
-        <ol>
-            <li>
-                <p>Create an HTML file to run in the browser that links to a JS file</p>
-            </li>
-            <li>
-                <p>Create a JS file for the html file</p>
-            </li>
-            <li>
-                <p>Create a second JS file that is a module, that will be referenced in the first JS file</p>
-            </li>
-        </ol>
+        <p>The focus of this assignment is to practice creating web pages using html and css.</p>
         <h2>Instructions</h2>
-        <h3>Code without Modules</h3>
         <ol>
             <li>
-                <p>Create an html file named <code>app.html</code>
-                <ul>
-                    <li>
-                        <p>Include an <code>input</code> for a user to enter the radius of a circle</p>
-                    </li>
-                    <li>
-                        <p>Include a <code>button</code> that will call a function when clicked</p>
-                    </li>
-                    <li>
-                        <p>Include a <code>div</code> with an id of "output" for the circumference to be displayed from the JS function</p>
-                    </li>
-                </ul>
-                </p>
+                <p>Create a webpage that looks exactly like the following image.</p>
+                <div class="tips">Tip: There is no css included (the border is not included either)</div>
+                <img src="./images/class_activity1.png" class="img-tutorial" alt="">
             </li>
             <li>
-                <p>Create a js file named <code>app.js</code>
-                <ul>
-                    <li>
-                        <p>Create a function called <code>submitFunction()</code></p>
-                    </li>
-                    <li>
-                        <p>Use <code>document.getElementByID</code> to retrieve the value from the html <code>input</code></p>
-                    </li>
-                    <li>
-                        <p>Use <code>parseFloat()</code> to convert the input string to a number</p>
-                    </li>
-                    <li>
-                        <p>Use the formula <code>π r^2</code> to compute the circumference of a circle</p>
-                    </li>
-                    <li>
-                        <p>Use <code>document.getElementByID</code> to display that circumference in the <code>output</code> div.</p>
-                    </li>
-                </ul>
-                </p>
+                <p>Create a webpage that looks exactly like the following image.</p>
+                <div class="tips">Tip: The html is exactly the same as the first. The only difference: Two CSS rules were applied. One other tip, <a href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en" target="_blank">This Chrome Extension</a> may be helpful for finding that css color code.</div>
+                <img src="./images/class_activity2.png" class="img-tutorial" alt="">
             </li>
             <li>
-                <p>Add a <code>script</code> tag to the html file that references <code>app.js</code></p>
-            </li>
-            <li>
-                <p>Write the code or use <code>onclick</code> in the button to call <code>submitFunction()</code> when the button is clicked.</p>
-            </li>
-            <li>
-                <p>Run the code and ensure that everthing works as intended.</p>
+                <p>Create a webpage that looks exactly like the following image.</p>
+                <div class="tips">Tip: Add the <code>img</code> html element with an image of your choosing, add style to make it only 300px wide.</div>
+                <img src="./images/class_activity3.png" class="img-tutorial" alt="">
             </li>
         </ol>
-        <h3>Code With Modules</h3>
-        <p>Now that you have the code working the way that we're used to, let's split up our logic into modules.</p>
-        <ol>
-            <li>
-                <p>Create a file called <code>circleCalculator.js</code>. In it:
-                <ul>
-                    <li>
-                        <p>Create a function called <code>calculateCircumference(r)</code></p>
-                    </li>
-                    <li>
-                        <p>Export this function by inserting the text <code>export</code> before <code>function</code> where it is declared.</p>
-                    </li>
-                </ul>
-                </p>
-            </li>
-            <li>
-                <p>In <code>app.js</code> import the calculateCircumference function at the top of the file in this manner:
-                <pre><code class="js">
-    import {calculateCircumference} from './circleCalculator.js';                
-                </code></pre>
-                </p>
-            </li>
-            <li>
-                <p>In <code>submitFunction()</code> call the <code>calculateCircumference</code> function using the value from the user input as the argument to be passed into the function.</p>
-            </li>
-            <li>
-                <p>Lastly, because of scope being different with modules, add code to trigger the onclick function call from JavaScript instead of from the HTML:
-                <ul>
-                    <li>
-                        <p>In the html, add an id attribute to the button with a value of "submitButton"</p>
-                    </li>
-                    <li>
-                        <p>In app.js, add the following code to trigger the function when a click is detected:
-                        <pre><code class="js">
-    document.querySelector('#submitButton').onclick = submitFunction;
-                        </code></pre>
 
-                </ul>
-                </p>
-            </li>
-
-        </ol>
         <h2>Conclusion</h2>
-        <p>Congratulations! You have just done everything that you need to do in order to incorporate modules into your applications. The following video goes through the entire class activity.</p>
-        <iframe width="560" height="315" class="img-tutorial" src="https://www.youtube.com/embed/meqVScTAcqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Congratulations! You have just learned how to write html and css code, and learned how they work together.</p>
         <h4><a href="class1.zip">Completed Code Zip File</a></h4>
     </article>
 </body>

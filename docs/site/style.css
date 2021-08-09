@@ -648,6 +648,62 @@ table.rubric tbody tr:nth-child(even) td {
   background-color: #00000011;
 }
 
+.bookText {
+  width: 100%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+  border: 2px solid var(--color7);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.bookText::before {
+  content: 'Head First HTML & CSS: pgs. ';
+}
+
+.btn-success {
+  background-color: var(--color3) !important;
+  color: #fff !important;
+  border-color: #82b132 !important;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  background-color: #82b132 !important;
+  color: #fff !important;
+  border-color: #6f972a !important;
+}
+
+.btn-primary {
+  background-color: var(--color7) !important;
+  color: #fff !important;
+  border-color: #0087ca !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #0087ca !important;
+  color: #fff !important;
+  border-color: #006da3 !important;
+}
+
+.bottomLinks {
+  margin-top: -75px;
+  width: 100%;
+}
+
+.bottomLinks > a {
+  width: 40%;
+  margin: 0 4.5%;
+  color: white !important;
+}
+
 /* For grade calculator */
 table.rubric tbody td:not(:first-child):not(:last-child) {
   cursor: pointer;
