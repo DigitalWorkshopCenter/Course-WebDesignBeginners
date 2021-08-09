@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppies for Sale</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        header {
+            width: 100%;
+            height: 50px;
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+
+        .floatRight {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .pageContent {
+            width: 80%;
+            margin-left: 10%;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .homePageImage {
+            width: 100%;
+            height: auto;
+            max-height: 370px;
+        }
+
+        .row::after {
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="floatLeft">
+            <span>LOGO</span>
+        </div>
+        <div class="floatRight">
+            <a href="./search.html"><button>Search for Puppies</button></a>
+            <a href="./account.html"><button>Account</button></a>
+        </div>
+    </header>
+    <div class="pageContent">
+        <div class="row">
+            <div class="column">
+                <img src="https://wallpaperaccess.com/full/327656.jpg" class="homePageImage" alt="">
+            </div>
+            <div class="column">
+                <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1133605325-scaled-e1617227898456.jpg" class="homePageImage" alt="">
+            </div>
+        </div>
+        <div>
+            <h1>The best puppies in the world are for sale!!</h1>
+            <p>Please see our search page</p>
+        </div>
+    </div>
+    <footer>
+        Copyright Nathan Birch 2021
+    </footer>
+</body>
+
+</html>

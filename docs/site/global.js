@@ -16,11 +16,11 @@ g.n06 = 'Lesson ' + '06';
 
 // module names
 g.u01 = g.n01 + ' - Intro to Web Development (VS Code, HTML and CSS)';
-g.u02 = g.n02 + ' - Project I - One Awesome Home Page';
+g.u02 = g.n02 + ' - Project I';
 g.u03 = g.n03 + ' - Advanced Web Development';
-g.u04 = g.n04 + ' - Project II - First Website';
+g.u04 = g.n04 + ' - Project II';
 g.u05 = g.n05 + ' - Search Engine Optimization and Advanced CSS';
-g.u06 = g.n06 + ' - Project III - Awesome Website';
+g.u06 = g.n06 + ' - Project III';
 
 // assignment information
 
@@ -41,9 +41,9 @@ g.t1 = [
 ];
 
 g.t2 = [
-  "Learn how to use the browser inspect tools (i.e. Mozilla's Firebug)",
+  'Learn how to use the browser inspect tools',
   'Link CSS file',
-  'Project: Home Page',
+  'Lab Time: Project 1 -  Home Page',
 ];
 
 g.t3 = [
@@ -61,7 +61,7 @@ g.t4 = [
   'Advanced CSS: create complex layouts, box layouts with rounded corners ',
   'Advanced CSS: Print media queries',
   'Incorporate accessibility features ',
-  'Project: Favorite Places',
+  'Lab Time: Project - Favorite Places',
 ];
 
 g.t5 = [
@@ -76,5 +76,5 @@ g.t5 = [
 
 g.t6 = [
   'Website project: Personal Project',
-  'Publish a website - file upload: https://www.000webhost.com/',
+  'Lab Time: Publish a website - file upload: https://www.000webhost.com/',
 ];

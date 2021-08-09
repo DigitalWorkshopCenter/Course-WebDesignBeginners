@@ -692,7 +692,10 @@ table.rubric tbody tr:nth-child(even) td {
   color: #fff !important;
   border-color: #006da3 !important;
 }
-
+.wButton {
+  width: 100%;
+  line-height: 100px;
+}
 .bottomLinks {
   margin-top: -75px;
   width: 100%;
