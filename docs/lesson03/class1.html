@@ -29,13 +29,55 @@
 <body>
   <div id="includedHeader"></div>
   <article>
-    <h1>Hands-on Exercise 1<br />Creating Modules</h1>
+    <h1>Hands-on Exercise 1<br />Div and Span Exercise</h1>
     <h2>Overview</h2>
+    <p>Sometimes we want to add styling to an arbitrary region of a document. A portion of a document might be a header or a sidebar. A region of text might just be special somehow. Perhaps it’s an address that we want to highlight in a particular way, or a date that needs special formatting.</p>
+    <p>For these purposes we have divs and spans.</p>
+    <p>A document division is intended to demarcate a largish region of text like a header, sidebar or footer. It groups a number of related items. It’s defined using the
+      div opening and closing tags.</p>
+    <p>A span is designed to demarcate a small region of text, maybe just a word, not more than a line or two. Span’s are defined using the <span> and </span> opening and closing tags.</p>
+
+
     <h2>Instructions</h2>
+    <ol>
+      <li>
+        <p>Create a new html document and copy and paste the following code into it.</p>
+        <pre>
+        <code class="html">
+&lt;!--This is a title. Wrap this in an h1 tag--&gt;
+
+&lt;!--This is a strapline. Wrap this in a paragraph tag--&gt;
+
+&lt;!--This is body text. Wrap this in a paragraph tag.--&gt;
+
+&lt;!--This is more body text. Wrap this in a paragraph tag.--&gt;
+
+&lt;!--This is a line of text containing some words that might want to be styled appropriately. Red, green, blue, big, small--&gt;
+
+&lt;!--This is footer text, perhaps a copyright notice--&gt;
+        </code>
+      </pre>
+      </li>
+      <li>Wrap the title in an h1 tag and the strapline in a p tag.</li>
+      <li>Wrap the strapline in a p tag.</li>
+      <li>Wrap each of the three lines of body text in p tags</li>
+      <li>Wrap line of footer text in a p tag</li>
+      <li>Wrap the h1 and strapline together in a div tag. This groups them. They are now grouped. Add a style attribute to the div tag like so:
+        <pre>
+          <code class="html">
+&lt;div style=”border:2px solid grey”&gt;&lt;/div&gt;
+          </code>
+          </pre>
+      </li>
+      <li>Wrap the three body text paragraphs in a div tag. This is your main div. Put a border around the main div.</li>
+      <li>Wrap the footer paragraph in a div tag. Put a border around the footer div.</li>
+      <li>Wrap span tags around the words: red, green, blue, big and small. Give each element its correct style, so the word blue should be blue.</li>
+      <li>Add a background color to the header div. use your CSS cheat sheet to find out the correct rule to apply.</li>
+    </ol>
     <h2>Conclusion</h2>
-    <p>Congratulations! ...</p>
-    <iframe width="560" height="315" class="img-tutorial" src="https://www.youtube.com/embed/meqVScTAcqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h4><a href="class1.zip">Completed Code Zip File</a></h4>
+    <p>Congratulations! You now know how to use divs and spans more effectively.</p>
+    <!-- <iframe width="560" height="315" class="img-tutorial" src="https://www.youtube.com/embed/meqVScTAcqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4><a href="class1.zip">Completed Code Zip File</a></h4> -->
   </article>
 </body>
 

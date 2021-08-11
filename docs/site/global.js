@@ -50,7 +50,7 @@ g.t3 = [
   'Design and develop an advanced webpage',
   'Create intriguing, modern layouts using "div" and "span" tags',
   'Use advanced CSS techniques and shortcuts (enhance text, format lists, modify background, background image properties, etc)',
-  'Incorporate Metadata and Multimedia',
+  'Incorporate Multimedia and Metadata',
   'Work with tables the right way (style them with css)',
   "Validate your web page's code",
   'Create a breadcrumb',

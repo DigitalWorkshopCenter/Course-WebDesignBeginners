@@ -1,0 +1,177 @@
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  cursor: default;
+  font-size: 17px;
+  line-height: 1.7;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Proxima Nova', system-ui, sans-serif;
+  color: #231f20;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.pageWidth {
+  width: 1100px;
+  height: 100%;
+  /* margin: 0 auto; */
+}
+
+.navbar {
+  height: 70px;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: -8px;
+}
+
+.navWidth {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.navWidth > img,
+span {
+  margin: 0;
+  position: absolute;
+  top: 21px;
+  /* -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.navWidth > span {
+  font-family: Proxima Nova Condensed, system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.navWidth > a,
+.navWidth > .navRight > a {
+  float: left;
+  font-family: Proxima Nova Condensed, system-ui, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  margin-top: 12px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navWidth > .navRight {
+  float: right;
+}
+
+.topAd {
+  /* height: 120px !important; */
+  /* top: 0 !important; */
+  background-color: blue;
+}
+
+.belowNavAd {
+  margin-top: 70px;
+  height: 120px;
+  width: 1100px;
+  margin: 70px auto 0 auto;
+}
+.belowNavAd > img {
+  margin-top: 15px;
+  padding-left: 50%;
+  margin-left: 40px;
+}
+.pageContent {
+  width: 1100px;
+  margin: 0 405px;
+}
+.primaryContent {
+  width: 750px;
+  float: left;
+  display: block;
+}
+.rightContent {
+  width: 350px;
+  float: right;
+  display: block;
+}
+
+h1 {
+  font-family: 'Proxima Nova Condensed', system-ui, sans-serif;
+  font-weight: 700;
+}
+.p {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-size: 18px;
+}
+.authorDiv {
+  /* height: 300px; */
+  padding-bottom: 20px;
+  border-bottom: 8px solid #231f20;
+}
+.authorTable > tr:nth-child(2) {
+  padding: 10px;
+}
+
+a {
+  color: #01adb9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ec1c82;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: '\2022';
+  color: #ec1c82;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+h6 {
+  font-size: 14px;
+  color: #918f8f;
+}
+
+.orangeText {
+  cursor: pointer;
+  text-decoration: none;
+  border-color: currentColor;
+  color: #f0533a;
+  border: 0;
+  background: none;
+}
+.flexContainer {
+  display: flex;
+}
+.flexChild {
+  flex: 1;
+}
+.orangeText:hover {
+  color: #ec1c82;
+}
+
+.floatRight {
+  float: right;
+}
+
+.bottomTable,
+.bottomTable > tbody {
+  width: 100%;
+}
+.bottomTable > tr:nth-child(2) {
+  float: right;
+}
