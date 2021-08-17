@@ -1,0 +1,88 @@
+/* the entire webpage */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+:root {
+  --primary: #50ecfb;
+  --secondary: #39404f;
+  --back: #515b70;
+}
+* {
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 25pt;
+  color: var(--secondary);
+}
+h1 {
+  font-size: 35pt;
+}
+p {
+  font-size: 18pt;
+}
+html {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.content {
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  display: flex;
+  background: var(--primary);
+  background: linear-gradient(
+    90deg,
+    var(--primary) 0%,
+    var(--primary) 80%,
+    var(--back) 95%,
+    var(--back) 100%
+  );
+  border-radius: 3px;
+}
+
+.contentA,
+.contentB {
+  width: 50%;
+  padding: 15px;
+  display: 1;
+}
+
+.contentB {
+  float: right;
+  display: inline-block;
+}
+
+/* navbar */
+ul.myNavbar {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  overflow: hidden;
+  background: rgb(51, 51, 51);
+  width: 100% !important;
+}
+
+ul.myNavbar:first-child {
+  padding-left: 20%;
+}
+
+ul.myNavbar li {
+  float: left;
+}
+
+ul.myNavbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.myNavbar li a.active {
+  color: var(--primary);
+}
+
+ul.myNavbar li a:hover {
+  background-color: #111;
+}

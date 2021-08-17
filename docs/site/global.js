@@ -51,17 +51,16 @@ g.t3 = [
   'Create intriguing, modern layouts using "div" and "span" tags',
   'Use advanced CSS techniques and shortcuts (enhance text, format lists, modify background, background image properties, etc)',
   'Incorporate Multimedia and Metadata',
-  'Work with tables the right way (style them with css)',
+  'Styling Tables, Complex Layouts, Box Layouts, Rounded Corners',
   "Validate your web page's code",
   'Create a breadcrumb',
   'Review project architecture',
 ];
 
 g.t4 = [
-  'Advanced CSS: create complex layouts, box layouts with rounded corners ',
-  'Advanced CSS: Print media queries',
+  'Advanced CSS: Media Queries',
   'Incorporate accessibility features ',
-  'Lab Time: Project - Favorite Places',
+  'Lab Project Part II',
 ];
 
 g.t5 = [
