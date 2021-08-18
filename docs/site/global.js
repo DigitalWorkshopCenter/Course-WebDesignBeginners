@@ -72,7 +72,4 @@ g.t5 = [
   'Create basic forms (style with css, include advanced elements and form submission)',
 ];
 
-g.t6 = [
-  'Website project: Personal Project',
-  'Lab Time: Publish a website - file upload: https://www.000webhost.com/',
-];
+g.t6 = ['How to Publish Your a Website', 'Lab Time'];
