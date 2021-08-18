@@ -1,0 +1,30 @@
+:root {
+  --primary: #fbcc7c;
+  --secondary: #1c222f;
+  --back: #2550ad;
+}
+.contentAll ul,
+.contentAll ul li {
+  margin-top: -30px;
+  font-size: 22pt;
+}
+
+.golfList {
+  list-style-image: url('./images/golfBullet.png');
+}
+
+.cubeList {
+  list-style-image: url('./images/cubeBullet.png');
+}
+
+.gameList {
+  list-style-image: url('./images/gameBullet.png');
+}
+
+.musicList {
+  list-style-image: url('./images/noteBullet.png');
+}
+
+.woodList {
+  list-style-image: url('./images/sawBullet.png');
+}

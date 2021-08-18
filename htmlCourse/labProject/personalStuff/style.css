@@ -1,0 +1,29 @@
+:root {
+  --primary: #9082dc;
+  --secondary: #1c222f;
+  --back: #f6faf9;
+}
+
+.container > img {
+  height: auto;
+  width: 27%;
+  margin: 0 1%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.familyTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.familyTable tr td,
+.familyTable tr th {
+  text-align: center;
+  border: 1px solid var(--back);
+}
