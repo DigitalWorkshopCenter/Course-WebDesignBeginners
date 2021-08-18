@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../site/fav.png" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="../site/style.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/default.min.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs2015.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="../site/global.js"></script>
+  <script>
+    hljs.highlightAll();
+    $(function () {
+      $('#includedHeader').load('../site/header.html');
+    });
+    window.onload = function () {
+      // load global variables
+      document.title = g.n05 + ' - Hands-on 3';
+    };
+  </script>
+</head>
+
+<body>
+  <div id="includedHeader"></div>
+  <article>
+    <h1>Hands-on Exercise 3<br />CSS Gradients</h1>
+    <h2>Overview</h2>
+    <p>In this activity, you will create your first CSS Gradients.</p>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>
+        <p>Create a new html file and open it with Live Server</p>
+      </li>
+      <li>
+        <p>Modify the body style of this html page by giving it a background gradient...any of your choosing.</p>
+      </li>
+      <li>
+        <p>There are a number of resources to help you learn how to do this, but as I've said in class before, I really enjoy using <a href="https://www.google.com/search?q=css+gradient+generator&oq=css+gradient+generator&aqs=chrome..69i57j0i512l5j69i60j69i65.8583j0j4&sourceid=chrome&ie=UTF-8" target="_blank">css gradient generators</a> , then making further customizations from there. This is also a really great way to see how the different css rules change the behavior of the gradients that are being used.</p>
+      </li>
+      <li>
+        <p>Once that body background is working the way you want it to, create a div on the page that takes up exactly 50% width of the page and 100% height of the page. Create a new gradient background for this div.</p>
+      </li>
+    </ol>
+    <h2>Conclusion</h2>
+    <p>Congratulations! You now know how to create css gradients!</p>
+    <!-- <iframe width="560" height="315" class="img-tutorial" src="https://www.youtube.com/embed/meqVScTAcqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4><a href="class1.zip">Completed Code Zip File</a></h4> -->
+  </article>
+</body>
+
+</html>

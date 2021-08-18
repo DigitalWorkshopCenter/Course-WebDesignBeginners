@@ -64,10 +64,9 @@ g.t4 = [
 ];
 
 g.t5 = [
-  'Optimize CSS for mobile - media queries',
-  'Create advanced styles and page layouts using CSS positioning',
+  'Advanced CSS Positioning: Optimize CSS for mobile - media queries',
   'Create image and email links - format links with css',
-  'Learn the latest CSS3 features including shadows, gradients',
+  'Learn the latest CSS3 features including shadows, gradients, transitions and animations',
   'Optimize a website for accessibility',
   'Optimize a website for search engines - discuss site maps',
   'Create basic forms (style with css, include advanced elements and form submission)',

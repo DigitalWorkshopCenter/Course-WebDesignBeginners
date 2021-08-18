@@ -29,7 +29,6 @@
       document.getElementById('g_t5_4').innerHTML = g.t5[3];
       document.getElementById('g_t5_5').innerHTML = g.t5[4];
       document.getElementById('g_t5_6').innerHTML = g.t5[5];
-      document.getElementById('g_t5_7').innerHTML = g.t5[6];
       document.getElementById('g_reading').innerHTML = g.reading;
     };
   </script>
@@ -49,7 +48,12 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-
+            <p>We've now had a fair bit of experience working with CSS Media Queries. Continuing to practice this will help you be more comfortable with this aspect of web development. This is crucial because approximately 50% of all website visits will be made from a mobile device.</p>
+            <div class="classActivity">
+              <h5><a href="./class1.html">Class Activity 1 - CSS Media Queries Practice</a></h5>
+            </div>
+            <h4>CSS Positioning</h4>
+            <p><a href="https://www.internetingishard.com/html-and-css/advanced-positioning/" target="_blank">CSS Positioning</a></p>
           </div>
         </div>
       </div>
@@ -61,7 +65,31 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-
+            <h2>Image Links</h2>
+            <p>We have seen several images as links throughout this course. Look at the following image links below:</p>
+            <a href="https://www.google.com/search?q=beautiful+mountain&tbm=isch&source=iu&ictx=1&fir=lgM1RVzZdI2KEM%252CeH3AYcgQoeLQ7M%252C_&vet=1&usg=AI4_-kRSnoXdBJo9nhq2Qs8zIUo9y4w0LA&sa=X&ved=2ahUKEwjdk_GFsrvyAhVELn0KHXwrDpIQ9QF6BAgSEAE&biw=1629&bih=821&dpr=2.2#imgrc=lgM1RVzZdI2KEM">
+              <img class="img-tutorial" src="https://i.insider.com/5a2589ab3339b027008b4715?width=750&format=jpeg&auto=webp" alt="">
+            </a>
+            or this one:
+            <a href="https://www.google.com/search?q=awesome+sunrise&tbm=isch&ved=2ahUKEwjDk66HsrvyAhXKgZ4KHc9hCXgQ2-cCegQIABAA&oq=awesome+sunrise&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjoICAAQgAQQsQM6BAgAEEM6CAgAELEDEIMBOgsIABCABBCxAxCDAToHCAAQsQMQQzoECAAQGFCK8AFYtvoBYL77AWgAcAB4AYABjwGIAdQJkgEEMTQuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=7modYcPkNcqD-gTPw6XABw&bih=821&biw=1629#imgrc=OWDK7Z86yUOk9M" target="_blank">
+              <img class="img-tutorial" src="https://loveincorporated.blob.core.windows.net/contentimages/main/7744921a-7025-45f1-b054-8746f7ad4618-topsunrisespoteverystate.jpg" alt="">
+            </a>
+            <p>Notice how these behave differently? One opens a new tab, one does not. Both are the same size with a border...which indicates use of css styles on these images just like I could use styles on any other image.</p>
+            <p>Open the developer tools on this page and look at the code used to create these image links. It is surprisingly simple.</p>
+            <p>To solidify this learning, TutorialsPoint has a <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML" target="_blank">great article</a> on how to use an image as a link in HTML.</p>
+            <h2>Email Links</h2>
+            <p>Check out this link:</p>
+            <a href="mailto:nathantbirch@gmail.com?subject=DWC Lesson 5 Question&body=Hi Nathan, I was reading through the lesson 5 material for the HTML and CSS class and I was really confused. Can you please help me understand email links a little better? Here is the link: https://nathanbirch.github.io/Course-WebDesignBeginners/lesson05/reading.html">
+              <h4>Have a Question??</h4>
+            </a>
+            <p>The above is just a regular link...I can do this with an image too...</p>
+            <a href="mailto:nathantbirch@gmail.com?subject=This is awesome!&body=HTML and CSS are the coolest things in the world....except for JavaScript. With JavaScript, I could write code to periodically send out email love letters....now we're talking.">
+              <img src="./images/help.png" class="img-tutorial" alt="">
+            </a>
+            <p>Again, for both of the above links, look at the developer tools to see the code that was written to produce these links. The first one is actually an h5 element. Really, if I wanted to, I could put any html element(s) into an a tag. I could even make an entire webpage one single link if I wanted to.</p>
+            <div class="classActivity">
+              <h5><a href="./class2.html">Class Activity 2 - Links, Links and More Links</a></h5>
+            </div>
           </div>
         </div>
       </div>
@@ -73,7 +101,40 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-
+            <h2>CSS Shadows</h2>
+            <ul>
+              <li>
+                <p><a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp" target="_blank">W3Schools Box Shadows</a></p>
+              </li>
+              <li>
+                <p><a href="https://www.w3schools.com/css/css3_shadows.asp" target="_blank">More Shadows from W3Schools</a></p>
+              </li>
+            </ul>
+            <h2>CSS Gradients and Transitions</h2>
+            <iframe width="560" height="315" class="img-tutorial" src="https://www.youtube.com/embed/4kWHW7da4U8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul>
+              <li>
+                <p><a href="https://www.w3schools.com/css/css3_gradients.asp">W3Schools CSS Gradients</a></p>
+              </li>
+            </ul>
+            <div class="classActivity">
+              <h5><a href="./class3.html">Class Activity 3 - CSS Gradients</a></h5>
+            </div>
+            <iframe width="560" height="315" class="img-tutorial" src="https://www.youtube.com/embed/fBRzD6dwJfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul>
+              <li>
+                <p><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">W3Schools CSS Transitions</a></p>
+              </li>
+            </ul>
+            <div class="classActivity">
+              <h5><a href="./class4.html">Class Activity 4 - CSS Transitions</a></h5>
+            </div>
+            <h2>CSS Animations</h2>
+            <p><a href="https://www.w3schools.com/css/css3_animations.asp">W3Schools CSS Animations</a></p>
+            <p><a href="https://blog.hubspot.com/website/css-transition-vs-animation" target="_blank">CSS Transitions vs CSS Animations</a></p>
+            <div class="classActivity">
+              <h5><a href="./class5.html">Class Activity 5 - CSS Animations</a></h5>
+            </div>
           </div>
         </div>
       </div>
@@ -85,7 +146,40 @@
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-
+            <p>According to <a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank">W3</a> Web Accessibility is when websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use. </p>
+            <p><a href="https://www2.stardust-testing.com/en/10-tips-for-web-accessibility">This Stardust Article</a> had several good suggestions for increasing web accessibility. They include: </p>
+            <ul>
+              <li>
+                <p>Use a CMS that supports accessibility</p>
+              </li>
+              <li>
+                <p>Structure and organize with headers</p>
+              </li>
+              <li>
+                <p>Assign alt tags for images</p>
+              </li>
+              <li>
+                <p>Use descriptive title for links</p>
+              </li>
+              <li>
+                <p>Use colors carefully</p>
+              </li>
+              <li>
+                <p>Design forms for web accessibility</p>
+              </li>
+              <li>
+                <p>Use tables for tabular data</p>
+              </li>
+              <li>
+                <p>Ensure site navigation via a keyboard</p>
+              </li>
+              <li>
+                <p>Turn dynamic content into accessible content</p>
+              </li>
+              <li>
+                <p>Validate web accessibility</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -97,7 +191,9 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-
+            <p>Search Engine Optimization is what we call it...when a search engine is able to find your website because of things that you have done while developing it. The real question is, what do search engines care about? and how can we optimize our websites for search engines?</p>
+            <p><a href="https://www.crazyegg.com/blog/how-to-optimize-your-website/" target="_blank">This Article</a> by the daily egg has a lot of helpful suggestions in addition to explaining why it is important to incorporate SEO into pretty much any website you will ever build.</p>
+            <p>The last thing we will talk about in this section of our reading today is <a href="https://backlinko.com/hub/seo/sitemaps" target="_blank">sitemaps</a>.</p>
           </div>
         </div>
       </div>
@@ -109,19 +205,61 @@
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingSeven">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            <h3 id='g_t5_7'></h3>
-          </button>
-        </h2>
-        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-
+            <h2>What is an HTML Form?</h2>
+            <ul>
+              <li>
+                <p>The <code>form</code> tag is used to create an HTML form for user input.</p>
+              </li>
+              <li>
+                <p><a href="https://www.w3schools.com/tags/tag_form.asp" target="_blank">This</a> w3schools article shows how to use forms very well.</p>
+              </li>
+              <li>
+                <p>Why might forms be important? Where have you seen them in websites? How are they used?</p>
+              </li>
+            </ul>
+            <h2>How can we style forms?</h2>
+            <p><a href="https://www.w3schools.com/css/css_form.asp" target="">This W3Schools</a> article has a lot of good suggestions on how to style html forms. Some of these include:</p>
+            <ul>
+              <li>
+                <p>Styling Input Fields</p>
+              </li>
+              <li>
+                <p>Padded Inputs</p>
+              </li>
+              <li>
+                <p>Bordered Inputs</p>
+              </li>
+              <li>
+                <p>Colored Inputs</p>
+              </li>
+              <li>
+                <p>Focused Inputs</p>
+              </li>
+              <li>
+                <p>Input with icon/image</p>
+              </li>
+              <li>
+                <p>Animated Search Input</p>
+              </li>
+              <li>
+                <p>Styling Textareas</p>
+              </li>
+              <li>
+                <p>Styling Select Menus</p>
+              </li>
+              <li>
+                <p>Styling Input Buttons</p>
+              </li>
+              <li>
+                <p>Responsive Form</p>
+              </li>
+              <li>
+                <p>Aligned Form</p>
+              </li>
+            </ul>
+            <div class="classActivity">
+              <h5><a href="./class6.html">Class Activity 6 - Forms</a></h5>
+            </div>
           </div>
         </div>
       </div>
