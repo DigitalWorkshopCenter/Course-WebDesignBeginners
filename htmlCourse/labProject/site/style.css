@@ -93,6 +93,9 @@ ul.myNavbar li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+ul.myNavbar i {
+  color: white;
+}
 
 ul.myNavbar li a span {
   color: white;
@@ -100,7 +103,8 @@ ul.myNavbar li a span {
 }
 
 ul.myNavbar li a.active,
-ul.myNavbar li a.active > span {
+ul.myNavbar li a.active > span,
+ul.myNavbar li a.active > i {
   color: var(--primary);
 }
 

@@ -1,0 +1,18 @@
+:root {
+  --primary: #9aedab;
+  --secondary: #1c222f;
+  --back: #ffffff;
+}
+.contentAll h1,
+.contentAll p,
+.contentAll ul {
+  margin-top: 0px !important;
+}
+.contentAll ul {
+  white-space: normal;
+}
+.listStuff ul,
+.listStuff ul li {
+  /* margin-top: -30px; */
+  font-size: 22pt;
+}
