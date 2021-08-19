@@ -17,7 +17,7 @@ img {
 }
 
 .linkImages span {
-  width: calc(50% - (7.5px * 2));
+  width: calc(50% - (7.5px));
   height: auto;
   position: relative;
   text-align: center;
@@ -30,7 +30,7 @@ img {
 
 .linkImages span:nth-child(1),
 .linkImages span:nth-child(2) {
-  margin-bottom: 7.5px;
+  margin-bottom: 15px;
 }
 
 .linkImages span:nth-child(odd) {
@@ -39,6 +39,7 @@ img {
 
 .linkImages span:nth-child(even) {
   margin-left: 7.5px;
+  float: right;
 }
 
 .linkImages span div {

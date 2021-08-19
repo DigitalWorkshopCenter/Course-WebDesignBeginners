@@ -27,3 +27,32 @@
   text-align: center;
   border: 1px solid var(--back);
 }
+.noMobile {
+  font-size: inherit;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+  .container > img {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .familyTable tr th,
+  .familyTable tr td {
+    display: block;
+    border: none;
+  }
+  .familyTable tr th:nth-child(3),
+  .familyTable tr td:nth-child(3) {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+  }
+  .familyTable tr:last-child td:nth-child(3) {
+    border-bottom: none;
+  }
+}

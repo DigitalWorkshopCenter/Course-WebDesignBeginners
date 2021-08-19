@@ -17,21 +17,22 @@ h2 {
   font-size: 30pt;
   margin: 0;
 }
-p {
+p,
+span {
   font-size: 18pt;
 }
-html {
-  padding: 0px;
-  margin: 0px;
-}
+html,
 body {
   padding: 0px;
   margin: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  min-width: fit-content;
 }
 .content {
   width: 60%;
   height: 100%;
-  margin-left: 20%;
+  margin: 20px 20%;
   background: var(--primary);
   background: linear-gradient(
     90deg,
@@ -71,7 +72,6 @@ body {
 ul.myNavbar {
   list-style-type: none;
   margin: 0;
-  margin-bottom: 20px;
   padding: 0;
   overflow: hidden;
   background: rgb(51, 51, 51);
@@ -94,7 +94,13 @@ ul.myNavbar li a {
   text-decoration: none;
 }
 
-ul.myNavbar li a.active {
+ul.myNavbar li a span {
+  color: white;
+  font-size: inherit;
+}
+
+ul.myNavbar li a.active,
+ul.myNavbar li a.active > span {
   color: var(--primary);
 }
 
@@ -111,11 +117,13 @@ ul.myNavbar li a:hover {
 }
 .contentTable tr td img,
 .contentTable tr td video {
-  width: 100%;
+  width: 95%;
+  margin-left: 2.5%;
   border-radius: 10px;
 }
 
 .contentTable tr td {
+  width: 50%;
   padding: 10px;
 }
 

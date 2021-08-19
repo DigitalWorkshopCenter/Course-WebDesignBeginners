@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Fun Times</title>
-    <script src="./script.js"></script>
+    <title>Family</title>
     <link rel="stylesheet" href="../site/style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../site/mediaQuery.css">
 </head>
 
 <body>
     <ul class="myNavbar">
         <li><a href="../index.html">Home</a></li>
         <li><a href="../places/">Places</a></li>
-        <li><a href="../funTimes/">Fun Times</a></li>
+        <li><a href="../funTimes/">Fun<span class="noMobile"> Times</span></a></li>
         <li><a href="../hobbies/">Hobbies</a></li>
-        <li><a class="active" href="">Family</a></li>
+        <li><a class="active" href="">Fam<span class="noMobile">ily</span></a></li>
     </ul>
     <div class="content">
         <div class="contentAll">
@@ -32,8 +32,8 @@
             <table class="familyTable">
                 <tr>
                     <th>Name</th>
-                    <th>Age (Years)</th>
-                    <th>Family Member Type</th>
+                    <th>Age <span class="noMobile">(Years)</span></th>
+                    <th><span class="noMobile">Family Member </span>Type</th>
                 </tr>
                 <tr>
                     <td>Little Boy</td>
@@ -83,6 +83,7 @@
             </table>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
