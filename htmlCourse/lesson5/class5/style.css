@@ -1,0 +1,42 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 212);
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgb(255, 0, 212);
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+  }
+  25% {
+    background-color: rgb(252, 252, 122);
+    left: 200px;
+    top: 0px;
+    border-radius: 0%;
+  }
+  50% {
+    background-color: rgb(69, 139, 246);
+    left: 200px;
+    top: 200px;
+    border-radius: 50%;
+  }
+  75% {
+    background-color: rgb(0, 234, 0);
+    left: 0px;
+    top: 200px;
+    border-radius: 0%;
+  }
+  100% {
+    background-color: rgb(255, 0, 212);
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+  }
+}

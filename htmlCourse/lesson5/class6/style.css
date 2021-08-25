@@ -1,0 +1,48 @@
+body {
+  width: 80%;
+  margin-left: 10%;
+}
+form {
+  width: 100%;
+  text-align: center;
+}
+
+form input[type='text'],
+form input[type='email'] {
+  width: 45%;
+  margin: 2% 1.25%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form input[type='radio'],
+form input[type='checkbox'],
+form label {
+  display: inline;
+}
+
+form label,
+form span {
+  font-size: 20px;
+}
+
+form label.subscribe {
+  margin-left: 35px;
+}
+form input[type='checkbox'] {
+  margin-right: 35px;
+}
+
+.mobileBreak {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .mobileBreak {
+    display: block;
+    font-size: 200%;
+    margin: 20px;
+    content: '';
+  }
+}
