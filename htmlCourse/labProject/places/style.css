@@ -3,3 +3,12 @@
   --secondary: #1c222f;
   --back: #4b9a29;
 }
+
+.spotify {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.testOL {
+  list-style: none;
+}
