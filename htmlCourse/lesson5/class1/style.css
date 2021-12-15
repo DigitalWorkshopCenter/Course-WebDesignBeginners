@@ -144,12 +144,17 @@ img {
   left: 16px;
 }
 
-.linkImages span div a {
-  text-decoration: none;
+.hoverGrow {
+  transition: all .2s;
 }
 
-.linkImages span div a:hover {
-  text-decoration: underline;
+.hoverGrow:hover {
+  font-size:30pt;
+    font-size-adjust: 25pt;
+}
+
+.linkImages span div a {
+  text-decoration: none;
 }
 
 .linkImages span div a {

@@ -38,4 +38,7 @@
     display: block;
     margin: auto;
   }
+  .hoverGrow {
+    display:none;
+  }
 }
